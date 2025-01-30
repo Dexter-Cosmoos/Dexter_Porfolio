@@ -2,7 +2,7 @@
 
   <br />
   <br />
-  <img src=".assets/images/desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
+  <img src="assets/images/desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
   <br />
 
   <h2 align="center">Dexter Cosmos - Personal Portfolio Website</h2>
@@ -29,4 +29,4 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/DexterCosmos/Dexter-Portfolio.git
+   git clone https://github.com/DexterCosmos/dexter-portfolio.git
