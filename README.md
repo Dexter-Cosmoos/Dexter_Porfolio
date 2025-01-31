@@ -11,10 +11,6 @@
 
 </div>
 
-### Portfolio Demo
-
-https://github.com/DexterCosmos/Dexter-Portfolio.git
-
 ## Introduction
 
 This is a personal portfolio website for Dexter Cosmos, showcasing projects and skills.
@@ -24,3 +20,11 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 - Fully responsive design
 - Modern and clean layout
 - Easy to navigate
+
+### Portfolio Demo
+```sh
+https://github.com/DexterCosmos/Dexter-Portfolio.git
+
+
+
+  
