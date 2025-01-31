@@ -21,11 +21,6 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 - Modern and clean layout
 - Easy to navigate
 
-<bir />
-
 ### Portfolio live
-
-<bir />
-
 ```sh
   https://github.com/DexterCosmos/Dexter-Portfolio.git
