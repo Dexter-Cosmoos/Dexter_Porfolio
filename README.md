@@ -24,9 +24,3 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 - Fully responsive design
 - Modern and clean layout
 - Easy to navigate
-
-## Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/DexterCosmos/dexter-portfolio.git
