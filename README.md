@@ -24,7 +24,3 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 ### Portfolio Demo
 ```sh
   https://github.com/DexterCosmos/Dexter-Portfolio.git
-
-
-
-  
