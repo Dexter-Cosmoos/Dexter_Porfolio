@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/collection/icon/icon.css">
   <!-- 
     - primary meta tags
   -->
-  <title>Nomaan - Numbers tell the stories – I Craft them to life...</title>
-  <meta name="title" content="Drew Hays - Get your product identity from me.">
+  <title>Nomaan - Number's tell stories – I Craft them to life...</title>
+  <meta name="title" content="Nomaan - Number's tell stories – I Craft them to life...">
   <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
 
   <!-- 
@@ -38,6 +38,43 @@
   <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
   <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Text and Icons</title>
+  <style>
+      .btn {
+          display: inline-flex;
+          align-items: center;
+          text-decoration: none;
+          font-size: 20px;
+          padding: 10px 20px;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+      }
+
+      .btn .span, .btn ion-icon, .btn i {
+          background: linear-gradient(45deg, #d00000, #e85d04, #faa307);
+          background-clip: text;
+          -webkit-background-clip: text;
+          background-clip: text;
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+      }
+
+      .btn ion-icon, .btn i {
+          margin-left: 8px;
+      }
+
+      .gradient-color {
+          background: linear-gradient(45deg, #d00000, #e85d04, #faa307);
+          background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+  </style>
+
+  
 </head>
 
 <body id="top">
@@ -61,10 +98,11 @@
   <header class="header" data-header>
     <div class="container">
 
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.svg" width="250" height="50" alt="logo">
+      <a href="#" class="btn btn:hover">
+        <span class="span" style="background: linear-gradient(to right, #d00000, #e85d04, #faa307); 
+        background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 25px; font-family:'Roboto', bold">Nomaan - Dexter</span>
       </a>
-
+      
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
@@ -103,16 +141,11 @@
 
       </nav>
 
-      <a href="#" class="btn btn:hover">
-        <span class="span">Get A Quote</span>
 
-        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-      </a>
-
-      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
         <span class="line line-1"></span>
         <span class="line line-2"></span>
-      </button>
+        </button>
 
       <div class="overlay" data-overlay data-nav-toggler></div>
 
@@ -142,16 +175,21 @@
             <span class="span title">Nomaan</span>
 
           </div>
-
+          
           <div class="hero-content">
 
             <h1 class="h1 title">Number's tell stories – I Craft them to life...</h1>
 
             <div class="wrapper">
-              <a href="#" class="btn btn:hover">
-                <span class="span">Download CV</span>
 
-                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              <a href="assets/resume/cv.pdf" class="btn btn:hover" target="_blank">
+                <span class="span">Download CV</span>
+                <ion-icon class="fas fa-download" aria-hidden="true" class="gradient-color"></ion-icon>
+              </a>
+
+              <a href="https://github.com/DexterCosmos" class="btn btn:hover">
+                <span class="span">Github</span>
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
 
               <p class="hero-text">
@@ -731,7 +769,6 @@
 
 
 
-
       <!-- 
         - #TESTIMONIALS
       -->
@@ -793,7 +830,7 @@
               <button type="submit" class="btn btn:hover">
                 <span class="span">Get A Quote</span>
 
-                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                <ion-icon name="arrow-forward" aria-hidden="true"></quote-i>
               </button>
 
             </form>
