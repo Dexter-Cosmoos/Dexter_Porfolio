@@ -8,7 +8,7 @@
     </defs>
     
     <!-- Text element -->
-    <text x="10" y="40" font-family="Arial Black" font-size="25" fill="url(#grad1)">
-        Data Analyst
+    <text x="10" y="40" font-family="Arial" font-size="25" fill="url(#grad1)">
+       INDEX
     </text>
 </svg>
