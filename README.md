@@ -2,7 +2,7 @@
 
   <br />
   <br />
-  <img src="assets/images/desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
+  <img src="assets/images/Desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
   <br />
 
   <h2 align="center">Dexter Cosmos - Personal Portfolio Website</h2>
