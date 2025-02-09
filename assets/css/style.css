@@ -479,7 +479,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .overlay.active {
-  opacity: 0;
+  opacity: 0.8;
   pointer-events: all;
 }
 
@@ -947,10 +947,10 @@ textarea.input-field {
 \*-----------------------------------*/
 
 /**
- * responsive for large than 575px screen
+ * responsive for large than 576px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 576px) {
 
   /**
    * CUSTOM PROPERTY
