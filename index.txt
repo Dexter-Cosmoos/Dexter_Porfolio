@@ -1,0 +1,189 @@
+Nomaan - Number's tell stories – I Craft them to life...
+
+This is a personal portfolio html template made by Dexter.Cosmos
+
+
+
+#---------- HEADER ----------#
+
+alt = logo
+
+alt = logo
+
+aria-label = close menu
+<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+
+Home
+Services
+About
+Project
+Contact
+
+Get A Quote
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+aria-label = open menu
+
+
+
+#---------- HERO ----------#
+
+alt = Drew Hays
+
+Drew Hays
+
+Get Your Product Identity From Me.
+
+Download CV
+<ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+
+From device to cloud to edge Innovate from anywhere with secure
+
+
+
+#---------- SERVICE ----------#
+
+alt = service icon
+
+Web
+Development
+
+Digital
+Marketing
+
+Graphics
+Design
+
+Mobile
+Application
+
+
+
+#---------- ABOUT ----------#
+
+About Me
+Skillset
+certificates
+Visualizations
+
+ABOUT TAB
+----------
+alt = about banner
+
+A curious mind in the vast sea of data.
+
+A curious mind navigating through complex patterns,
+uncovering insights hidden in numbers,          
+transforming raw data into meaningful stories, 
+a small part of the larger picture of progress, 
+driven by a passion to make sense of the world through analysis.
+
+Name
+Nomaan Ansari
+Phone Number
+(8080) 219935
+
+Email Address
+Dexter.Cosmos@outlook.com
+
+
+SKILLSET TAB
+---------
+Data without direction is just noise — I bring clarity and strategy with my skillset.
+
+In a world of endless data, I filter the noise and uncover insights—turning numbers into narratives that drive impactful decisions.
+
+Data cleaning
+95%
+
+Insights Generation
+90%
+
+Data Visualization & Reporting
+92%
+
+Communication & Explanation
+85%
+
+alt = skill banner
+
+
+#---------- CTA ----------#
+
+Let's Work Together On Your Next Project!
+
+Hire Me Now
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+
+
+#---------- PROJECTS ----------#
+
+alt = Project poster: Creative & experienced digital design studio
+
+Project Details
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+Web, Product
+
+Creative & experienced digital design studio
+
+
+Front End Development & Maintenance
+
+Flutter Framework & Warframe Design
+
+Full Web Development Project With JavaScript
+
+Cloud Migration & AWS Services
+
+
+
+#---------- TESTIMONIALS ----------#
+
+The average national hourly rate for house cleaning services is $25 to $90 per individual, or $50 to $90 per hour. The size and condition of your home will strongly impact the price of these.
+
+Alexis browni JR.
+
+Founder of alxis co.
+
+
+
+#---------- CONTACT ----------#
+
+Get In Touch
+
+placeholder = Full name
+placeholder = Email address
+placeholder = Phone
+placeholder = Enter massges
+
+Get A Quote
+
+<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+
+map src = https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d898.4329239267093!2d-73.91493787358391!3d40.76299026683699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1671529019371!5m2!1sen!2sbd
+
+alt = contact icon
+
+869. 368. 456. 56
+789 (569) 126 35
+
+30- 24 Newtown Rd, Queens,
+NY 11103, USA
+
+info@drew.com
+jobs@drew.com
+
+
+
+#---------- FOOTER ----------#
+
+Copyright & Design By @codewithsadee - 2022
+
+Back To Top
+
+<ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
