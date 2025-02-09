@@ -22,9 +22,15 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 - Easy to navigate
 
 ### Portfolio live
-```sh
-   porfolio-d6ty.vercel.app
-```sh
-    nomaan-portfolio.vercel.app
-```sh
-   porfolio-d6ty-dexter-porfolio.vercel.app
+
+urls=(
+    "https://porfolio-d6ty.vercel.app"
+    "https://nomaan-portfolio.vercel.app"
+    "https://porfolio-d6ty-dexter-porfolio.vercel.app"
+)
+
+# Loop through the URLs and open each one
+for url in "${urls[@]}"; do
+    echo "Opening $url"
+    xdg-open "$url" 2>/dev/null || open "$url" 2>/dev/null || start "$url"
+done
