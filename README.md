@@ -24,5 +24,6 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 ### Portfolio live
 ```sh
  porfolio-d6ty.vercel.app
+   porfolio-d6ty-dexter-porfolio.vercel.app
+    dexter-cosmos.vercel.app
     nomaan-portfolio.vercel.app
-      porfolio-d6ty-dexter-porfolio.vercel.app
