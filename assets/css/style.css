@@ -456,7 +456,7 @@ body.nav-active { overflow: hidden; }
   place-items: center;
 }
 
-.nav-close-btn ion-icon { --ionicon-stroke-width: 50px; }
+.nav-close-btn ion-icon { --ionicon-stroke-width: 100px; }
 
 .navbar-link {
   padding: 8px;
@@ -685,45 +685,6 @@ body.nav-active { overflow: hidden; }
   background-color: var(--bg-white);
   height: 100%;
 }
-
-.interview-card { position: relative; }
-
-.interview-card .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
-  justify-content: center;
-  border-radius: var(--radius-circle);
-  color: var(--text-smoky-black);
-}
-
-.interview-card .btn::before,
-.interview-card .btn::after { border-radius: inherit; }
-
-.interview-card .btn::before { background-color: var(--bg-white); }
-
-.interview-card .btn:is(:hover, :focus-visible) { color: var(--text-white); }
-
-.exhibition-card { position: relative; }
-
-.exhibition-card .card-icon {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  background-color: var(--bg-white);
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-circle);
-  color: var(--bg-smoky-black);
-  display: grid;
-  place-items: center;
-}
-
-
-
 
 
 /*-----------------------------------*\
@@ -978,11 +939,11 @@ textarea.input-field {
    * REUSED STYLE
    */
 
-  .container {
-    max-width: 540px;
-    width: 100%;
-    margin-inline: auto;
-  }
+   .container {
+    max-width: 100%; /* Ensure container does not exceed viewport width */
+    padding: 0 15px; /* Add some padding */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width */
+}
 
 
 
