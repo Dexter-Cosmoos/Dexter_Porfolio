@@ -662,7 +662,7 @@ body.nav-active { overflow: hidden; }
   gap: 30px;
 }
 
-.tab-content .section-title { margin-block-end: 0px; }
+.tab-content .section-title { margin-block-end: 15px; }
 
 .tab-content .section-text,
 .about-item:not(:last-child) { margin-block-end: 20px; }
