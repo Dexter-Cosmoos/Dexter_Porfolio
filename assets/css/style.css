@@ -699,9 +699,9 @@ body.nav-active { overflow: hidden; }
   height: 100%;
 }
 
-.interview-card { position: relative; }
+.Certificates-card { position: relative; }
 
-.interview-card .btn {
+.Certificates-card .btn {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -713,16 +713,16 @@ body.nav-active { overflow: hidden; }
   color: var(--text-smoky-black);
 }
 
-.interview-card .btn::before,
-.interview-card .btn::after { border-radius: inherit; }
+.Certificates-card .btn::before,
+.Certificates-card .btn::after { border-radius: inherit; }
 
-.interview-card .btn::before { background-color: var(--bg-white); }
+.Certificates-card .btn::before { background-color: var(--bg-white); }
 
-.interview-card .btn:is(:hover, :focus-visible) { color: var(--text-white); }
+.Certificates-card .btn:is(:hover, :focus-visible) { color: var(--text-white); }
 
-.exhibition-card { position: relative; }
+.education-card { position: relative; }
 
-.exhibition-card .card-icon {
+.education-card .card-icon {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -1052,7 +1052,7 @@ textarea.input-field {
     grid-template-columns: 1fr 1fr;
   }
 
-  .interview-card {
+  .Certificates-card {
     max-width: max-content;
     margin-inline: auto;
   }
@@ -1158,7 +1158,7 @@ textarea.input-field {
     border-inline-start: 1px solid var(--border-eerie-black);
   }
 
-  :is([data-tab-content="interview"], [data-tab-content="exhibition"]) .grid-list {
+  :is([data-tab-content="Certificates"], [data-tab-content="Education"]) .grid-list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1389,7 +1389,7 @@ textarea.input-field {
 
   .tab-content .grid-list { grid-template-columns: 1fr 1fr; }
 
-  :is([data-tab-content="interview"], [data-tab-content="exhibition"], [data-tab-content="awward"]) .grid-list {
+  :is([data-tab-content="Certificates"], [data-tab-content="Education"], [data-tab-content="awward"]) .grid-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
