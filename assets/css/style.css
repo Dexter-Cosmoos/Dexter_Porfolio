@@ -307,7 +307,7 @@ body.nav-active { overflow: hidden; }
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   box-shadow: inset 55vw 0 0 0 var(--bg-white),
               inset -55vw 0 0 0 var(--bg-white);
   display: grid;
@@ -459,8 +459,10 @@ body.nav-active { overflow: hidden; }
 .nav-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .navbar-link {
-  padding: 8px;
-  margin-block-start: 4px;
+  padding: 0px;
+  margin-block-start: 0px;
+  overflow-x: hidden;
+  width:100%
 }
 
 .navbar-link:is(:hover, :focus-visible) { color: var(--text-white); }
@@ -649,10 +651,10 @@ body.nav-active { overflow: hidden; }
   gap: 30px;
 }
 
-.tab-content .section-title { margin-block-end: 30px; }
+.tab-content .section-title { margin-block-end: 0px; }
 
 .tab-content .section-text,
-.about-item:not(:last-child) { margin-block-end: 20px; }
+.about-item:not(:last-child) { margin-block-end: 0px; }
 
 .about-item .span { line-height: 1.4; }
 
@@ -975,7 +977,8 @@ textarea.input-field {
    */
 
   .container {
-    max-width: 540px;
+    max-width: 100%;
+    overflow: hidden;
     width: 100%;
     margin-inline: auto;
   }
