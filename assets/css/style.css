@@ -568,10 +568,6 @@ body.nav-active { overflow: hidden; }
   left: 100;
   padding: 100; /* Adjust the padding as needed */
   margin: 50px;  /* Adjust the margin as needed */
-  max-width: auto;
-  max-height: auto;
-  overflow-x: auto; /* Added overflow-x property */
-  box-sizing: border-box;
 }
 
 .hero .shape-2 {
@@ -669,9 +665,9 @@ body.nav-active { overflow: hidden; }
 .tab-content .section-title { margin-block-end: 0px; }
 
 .tab-content .section-text,
-.about-item:not(:last-child) { margin-block-end: 0px; }
+.about-item:not(:last-child) { margin-block-end: 20px; }
 
-.about-item .span { line-height: 1.4; }
+.about-item .span { line-height: 1.2; }
 
 .social-list {
   display: flex;
