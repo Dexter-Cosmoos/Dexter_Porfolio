@@ -1158,7 +1158,7 @@ textarea.input-field {
     border-inline-start: 1px solid var(--border-eerie-black);
   }
 
-  :is([data-tab-content="Certificates"], [data-tab-content="Education"]) .grid-list {
+  :is([data-tab-content="Certificates"], [data-tab-content="visualization"]) .grid-list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1389,8 +1389,8 @@ textarea.input-field {
 
   .tab-content .grid-list { grid-template-columns: 1fr 1fr; }
 
-  :is([data-tab-content="Certificates"], [data-tab-content="Education"], [data-tab-content="awward"]) .grid-list {
-    grid-template-columns: repeat(3, 1fr);
+  :is([data-tab-content="Certificates"], [data-tab-content="Education"]) .grid-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 
 
