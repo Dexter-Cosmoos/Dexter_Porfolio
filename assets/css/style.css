@@ -681,7 +681,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-block: 30px 12px;
+  margin-block: 15px 5px;
 }
 
 .skill-wrapper .span {
@@ -690,12 +690,12 @@ body.nav-active { overflow: hidden; }
 }
 
 .progress-bar {
-  background-color: var(--bg-smoky-black);
-  height: 4px;
+  background-color: var(--bg-black);
+  height: 2px;
 }
 
 .progress-fill {
-  background-color: var(--bg-white);
+  background: linear-gradient(to right,#7b2cbf, #4361ee, #000000);
   height: 100%;
 }
 
