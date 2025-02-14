@@ -720,9 +720,9 @@ body.nav-active { overflow: hidden; }
 
 .Certificates-card .btn:is(:hover, :focus-visible) { color: var(--text-white); }
 
-.Visualization-card { position: relative; }
+.Badges-card { position: relative; }
 
-.Visualization-card .card-icon {
+.Badges-card .card-icon {
   position: absolute;
   top: 30px;
   right: 30px;
@@ -1158,7 +1158,7 @@ textarea.input-field {
     border-inline-start: 1px solid var(--border-eerie-black);
   }
 
-  :is([data-tab-content="Certificates"], [data-tab-content="Visualization"]) .grid-list {
+  :is([data-tab-content="Certificates"], [data-tab-content="Badges"]) .grid-list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -1389,7 +1389,7 @@ textarea.input-field {
 
   .tab-content .grid-list { grid-template-columns: 1fr 1fr; }
 
-  :is([data-tab-content="Certificates"], [data-tab-content="Visualization"]) .grid-list {
+  :is([data-tab-content="Certificates"], [data-tab-content="Badges"]) .grid-list {
     grid-template-columns: repeat(2, 1fr);
   }
 
