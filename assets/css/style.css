@@ -467,11 +467,13 @@ body.nav-active { overflow: hidden; }
 .nav-close-btn ion-icon { --ionicon-stroke-width: 50px; }
 
 .navbar-link {
-  font-size: 2rem;
-  padding: 0px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
   margin-block-start: 0px;
   overflow-x: hidden;
-  width:100%
+  width: 100%;
 }
 
 .navbar-link:is(:hover, :focus-visible) { color: var(--text-white); }
