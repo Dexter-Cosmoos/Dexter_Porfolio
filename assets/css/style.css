@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 dexter.cosmos
+ * copyright 2025 dexter.cosmos
  */
 
 
@@ -561,7 +561,7 @@ body.nav-active { overflow: hidden; }
   right: 0;
   width: 100%;
   height: 100%;
-  outline: 1px solid var(--border-eerie-black);
+  outline: 2px solid var(--border-eerie-black);
   border-radius: var(--radius-pill);
 }
 
