@@ -624,14 +624,18 @@ body.nav-active { overflow: hidden; }
   --section-spacing: 20px;
 }
 
+/* Container for icons */
 .icons .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  border-left: 2px solid var(--border-eerie-black); /* Added left border */
+  border-right: 2px solid var(--border-eerie-black); /* Added right border */
 }
 
-.icon {
+/* Individual icon style */
+.icon  {
   width: 75px;
   height: 75px;
   display: flex;
@@ -640,23 +644,32 @@ body.nav-active { overflow: hidden; }
   margin: 20px;
   background: linear-gradient(to right, #ffffff, #cccccc);
   border-radius: 50%;
+  transition: transform 0.3s, background 0.3s; /* Added transition for smooth effect */
 }
 
+/* Hover effect for icons */
+.icon:hover {
+  transform: scale(1.1); /* Scale up the icon */
+  background: linear-gradient(to right, #cccccc, #ffffff); /* Change background gradient */
+}
+
+/* Icon image inside the icon container */
 .tech-icon {
   max-width: 60%;
   max-height: 60%;
 }
 
+/* Styles for the first icon in the series */
 .icon-start {
   border-block-start: 2px solid var(--border-eerie-black);
   margin-block-start: var(--section-spacing);
 }
 
+/* Styles for the last icon in the series */
 .icon-end {
   border-block-end: 2px solid var(--border-eerie-black);
   margin-block-end: var(--section-spacing);
 }
-
 
 
 /*-----------------------------------*\
