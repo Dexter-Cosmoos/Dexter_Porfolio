@@ -1,0 +1,16 @@
+Git init
+
+git add .
+
+git commit -m "initial changes"
+
+
+git remote add origin "http:\\github"
+
+
+git push origin master
+
+
+git push --set-upstream origin master/main
+
+```git push```  [only command to push]
