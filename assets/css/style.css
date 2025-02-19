@@ -866,7 +866,7 @@ body {
   align-items: flex-start;
   border-left: 4px solid var(--border-eerie-black);
   border-right: 4px solid var(--border-eerie-black);
-  padding: 1rem;
+  padding: 2rem;
 }
 
 .exp-start {
@@ -881,9 +881,10 @@ body {
 
 .experience-title {
   width: 100%;
-  font-size: 15px;
-  text-align: center;
+  font-size: 25px;
+  text-align: left;
   position: relative;
+  margin-top: -2rem;
 }
 
 .experience-title h2 {
@@ -911,6 +912,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: large;
+  font-weight: 300;
   text-align: left;
   width: 100%;
   padding: 1rem;
@@ -921,9 +923,9 @@ body {
 }
 
 .company-name {
-  font-size: 2rem;
+  font-size: 30px;
   font-weight: bold;
-  color: #abfeff;
+  color: #00ffea;
 }
 
 .company-logo-container {
@@ -936,7 +938,7 @@ body {
   max-width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 6px solid rgb(157, 71, 255);
+  border: 6px solid rgb(0, 251, 255);
   object-fit: cover;
   margin-bottom: 1rem;
 }
