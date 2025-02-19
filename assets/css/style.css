@@ -922,10 +922,16 @@ body {
   margin-left: 0;
 }
 
-.company-name {
+.company-name-1 {
   font-size: 30px;
   font-weight: bold;
-  color: #00ffea;
+  color: rgb(0, 251, 255);
+}
+
+.company-name-2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(119, 0, 255);
 }
 
 .company-logo-container {
@@ -934,11 +940,20 @@ body {
   align-items: center;
 }
 
-.company-logo {
+.company-logo-1 {
   max-width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 6px solid rgb(0, 251, 255);
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.company-logo-2 {
+  max-width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 6px solid rgb(119, 0, 255);
   object-fit: cover;
   margin-bottom: 1rem;
 }
