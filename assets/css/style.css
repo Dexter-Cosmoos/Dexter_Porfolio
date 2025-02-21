@@ -466,7 +466,9 @@ body.nav-active { overflow: hidden; }
   padding: 25px 20px;
   visibility: hidden;
   transition: 250ms var(--cubic-in);
-  z-index: 3;
+  z-index: 10;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .navbar.active {
@@ -1077,7 +1079,7 @@ body {
 
 .project-card .card-title {
   display: inline;
-  background-image: linear-gradient(var(--bg-white), var(--bg-white));
+  background-image: linear-gradient(to right,#8338ec, #3a86ff, #00b4d8);
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 0 1px;
@@ -1594,31 +1596,24 @@ textarea.input-field {
   
   .navbar-link {
     text-decoration: none;
-    color: #ffff;
+    color: #fff;
     position: relative;
     overflow: hidden;
-    font-size: 20px; /* Default font size */
-    font-weight: bold; /* Bold font */
+    font-size: 18px; /* Default font size */
+    display: inline-block; /* Ensure transform works correctly */
+    transition: transform 0.3s ease-in-out; /* Shorter transition for a snappier effect */
   }
   
-  .navbar-link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: #ffff;
-    transform: scaleX(0);
-    transition: transform 0.3s ease-in-out;
-    transform-origin: bottom right;
+  .navbar-link:hover {
+    transform: scale(1.2); /* Popped state when hovered */
   }
   
-  .navbar-link:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
+  /* To add a smooth transition back to normal state */
+  .navbar-link {
+    transition: transform 0.3s ease-in-out; /* Ensure smooth return */
   }
   
+
   .navbar-link span {
     display: inline-block;
   }
@@ -1787,11 +1782,11 @@ textarea.input-field {
    * HEADER
    */
 
-  .header { padding-block: 40px; }
+  .header { padding-block: 40px;}
 
   .header .container { padding-inline: 60px; }
 
-  .navbar-list { gap: 50px; }
+  .navbar-list { gap: 40px; }
 
 
 
