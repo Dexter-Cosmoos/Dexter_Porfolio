@@ -1598,7 +1598,6 @@ textarea.input-field {
   .navbar-list {
     display: flex;
     gap: 20px;
-    letter-spacing: 1px;
   }
 
   .navbar-list {
