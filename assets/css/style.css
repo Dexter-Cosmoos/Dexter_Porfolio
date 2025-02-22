@@ -15,7 +15,8 @@
 \*-----------------------------------*/
 
 :root {
-
+  
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
   /**
    * COLORS
    */
@@ -53,7 +54,7 @@
 
   /* font family */
   --fontfamily-roboto: 'Roboto', sans-serif;
-  --fontFamily-roboto: 'Open sans', sans-serif;
+  --fontFamily-roboto: 'Poppins', sans-serif;
   --font-dancing-script: 'Dancing Script', cursive;
 
   /* font size */
@@ -95,7 +96,7 @@
   --transition-3: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
   --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
   --cubic-out: cubic-bezier(0.05, 0.83, 0.52, 0.97);
-
+  
 }
 
 
@@ -861,7 +862,7 @@ body {
 }
 
 .exp .container {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -887,6 +888,7 @@ body {
   text-align: left;
   position: relative;
   margin-top: -2rem;
+  color: #fff;
 }
 
 .experience-title h2 {
@@ -914,7 +916,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: large;
-  font-weight: 300;
+  font-weight: 400;
   text-align: left;
   width: 100%;
   padding: 1rem;
@@ -922,6 +924,7 @@ body {
   border-radius: 0px;
   background-color: #000000;
   margin-left: 0;
+  color: white;
 }
 
 .company-name-1 {
@@ -1332,6 +1335,12 @@ textarea.input-field {
   .tab-btn-item {
     width: 50%;
     flex-grow: 1;
+  }
+
+  .tab-btn-item .tab-btn {
+    letter-spacing: 2.5px;
+    font-size: x-large;
+    font-weight: var(--weight-medium);  
   }
 
   .tab-btn-item:nth-child(2n) {
