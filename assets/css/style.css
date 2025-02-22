@@ -254,6 +254,7 @@ body.nav-active { overflow: hidden; }
 .h1 {
   font-size: var(--fontSize-2);
   line-height: 1.2;
+  letter-spacing: 1px;
 }
 
 .h2,
@@ -883,6 +884,7 @@ body {
   border-left: 4px solid var(--border-eerie-black);
   border-right: 4px solid var(--border-eerie-black);
   padding: 2rem;
+  overflow-x: auto;
 }
 
 .exp-start {
