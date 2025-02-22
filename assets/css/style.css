@@ -490,9 +490,11 @@ body.nav-active { overflow: hidden; }
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block-end: 20px;
+  padding-block-end: 10px;
+  padding-block-start: 20px;
   border-block-end: 4px solid var(--border-smoky-black);
   margin-block-end: 10px;
+
 }
 
 .nav-close-btn {
@@ -561,6 +563,7 @@ body.nav-active { overflow: hidden; }
   max-width: 90vw; /* Use relative units for width */
   padding: 0;
   margin-inline: auto;
+  margin-top: 12px;
 }
 
 .banner-outline::after {
@@ -572,11 +575,15 @@ body.nav-active { overflow: hidden; }
   left: 10px;
   outline: 10px solid var(--border-eerie-black);
   border-radius: var(--radius-pill);
+  margin-top: 12px;
+
 }
 
 .hero-banner {
   position: relative;
   border-radius: var(--radius-pill);
+  margin-top: 12px;
+
 }
 
 .hero-banner::after {
@@ -589,6 +596,7 @@ body.nav-active { overflow: hidden; }
   background-image: var(--gradient-1);
   opacity: 0.7;
   pointer-events: none;
+  margin-top: 12px;
 }
 
 .banner-outline .span {
@@ -1583,7 +1591,7 @@ textarea.input-field {
    */
 
   .header .container {
-    margin-inline: 0;
+    margin-inline: 1;
     min-width: 100%;
   }
 
@@ -1593,11 +1601,13 @@ textarea.input-field {
   .navbar {
     all: unset;
     display: block;
+    padding: auto;
   }
 
   .navbar-list {
     display: flex;
     gap: 20px;
+    letter-spacing: 1px;
   }
 
   .navbar-list {
@@ -1800,7 +1810,7 @@ textarea.input-field {
 
   .header .container { padding-inline: 60px; }
 
-  .navbar-list { gap: 40px; }
+  .navbar-list { gap: 30px; }
 
 
 
