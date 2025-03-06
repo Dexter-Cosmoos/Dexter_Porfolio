@@ -1,7 +1,7 @@
 <div align="center">
 
   <br />
-    <img src="assets/images/Desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
+    <img src="assets/images/Desktop.png" alt="Dexter Cosmos Portfolio" width="650"/>
   <br />
 
   <h1 align="center">Dexter Cosmos - Personal Portfolio Website</h1>
