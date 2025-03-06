@@ -21,9 +21,11 @@ This is a personal portfolio website for Nomaan Ansari, showcasing projects and 
 - Easy to navigate
 
 ### Portfolio live
+
 ```sh
-cosmoos.vercel.app
-dexter-cosmoos.vercel.app
+ cosmoos.vercel.app
+ dexter-cosmoos.vercel.app
+```
 
 ---
 
