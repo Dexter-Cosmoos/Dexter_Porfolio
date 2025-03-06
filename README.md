@@ -1,19 +1,18 @@
 <div align="center">
 
   <br />
-  <br />
-  <img src="assets/images/Desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
+    <img src="assets/images/Desktop.png" alt="Dexter Cosmos Portfolio" width="600"/>
   <br />
 
-  <h2 align="center">Dexter Cosmos - Personal Portfolio Website</h2>
+  <h1 align="center">Dexter Cosmos - Personal Portfolio Website</h1>
 
-  Dexter Cosmos is a fully responsive personal portfolio website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  Dexter Cosmos is a fully responsive personal portfolio website, Responsive for all devices, build using HTML, CSS, and JavaScript.
 
 </div>
 
 ## Introduction
 
-This is a personal portfolio website for Dexter Cosmos, showcasing projects and skills.
+This is a personal portfolio website for Nomaan Ansari, showcasing projects and skills.
 
 ## Features
 
@@ -26,3 +25,8 @@ This is a personal portfolio website for Dexter Cosmos, showcasing projects and 
 cosmoos.vercel.app
 dexter-cosmoos.vercel.app
 
+---
+
+<p align="center">
+  <i> This portfolio was solely exicuted by // Nomaan Ansari // </i>
+</p>
