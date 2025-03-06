@@ -6,7 +6,8 @@
 
   <h1 align="center">Dexter Cosmos - Personal Portfolio Website</h1>
 
-  Dexter Cosmos is a fully responsive personal portfolio website, <b> Responsive for all devices, build using HTML, CSS, and JavaScript.</b>
+  <b> Dexter Cosmos is a fully responsive personal portfolio website,</b>
+  <b> Responsive for all devices, build using HTML, CSS, and JavaScript.</b>
 
 </div>
 
