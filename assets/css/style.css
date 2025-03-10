@@ -789,6 +789,7 @@ body.nav-active { overflow: hidden; }
 
 .about-item .span { line-height: 1.2; }
 
+
 .social-list {
   display: flex;
   align-items: center;
@@ -815,7 +816,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .progress-fill {
-  background: linear-gradient(to right,#5c5c5c,#6600ff);
+  background: linear-gradient(to right,#ffffff, #faa307 ,#00ffea);
   height: 100%;
 }
 
