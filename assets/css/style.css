@@ -1121,7 +1121,6 @@ body.nav-active { overflow: hidden; }
 
 .project-container {
   display: flex;
-  padding: 0px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
