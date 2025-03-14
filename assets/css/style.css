@@ -668,7 +668,7 @@ body.nav-active { overflow: hidden; }
   justify-content: center;
   align-items: center;
   margin: 20px;
-  background: linear-gradient(to right, #ffffff, #cccccc);
+  background: linear-gradient(to right, #edf2f4, #8d99ae);
   border-radius: 50%;
   transition: transform 0.3s, background 0.3s; /* Added transition for smooth effect */
 }
@@ -676,13 +676,13 @@ body.nav-active { overflow: hidden; }
 /* Hover effect for icons */
 .icon:hover {
   transform: scale(1.1); /* Scale up the icon */
-  background: linear-gradient(to right, #cccccc, #ffffff); /* Change background gradient */
+  background: linear-gradient(to right, #8d99ae, #edf2f4);
 }
 
 /* Icon image inside the icon container */
 .tech-icon {
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 62%;
+  max-height: 62%;
 }
 
 /* Styles for the first icon in the series */
