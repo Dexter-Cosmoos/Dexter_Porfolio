@@ -673,6 +673,45 @@ body.nav-active { overflow: hidden; }
   transition: transform 0.3s, background 0.3s; /* Added transition for smooth effect */
 }
 
+.ico-title {
+  width: 100%;
+  font-size: 25px;
+  text-align: left;
+  position: relative;
+  margin-top: -2rem;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.ico-title h2 {
+  display: inline-block;
+  margin-left: 5px;
+  padding-bottom: 1rem;
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 2rem;
+}
+
+.ico-text {
+  color: #fff;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+.ico-title-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 4px;
+  background-color: var(--bg-white);
+}
+
 /* Hover effect for icons */
 .icon:hover {
   transform: scale(1.1); /* Scale up the icon */
@@ -900,18 +939,19 @@ body.nav-active { overflow: hidden; }
   text-align: left;
   position: relative;
   margin-top: -2rem;
-  color: #fff;
+  color: #ffffff;
 }
 
 .experience-title h2 {
   display: inline-block;
   margin: 0;
   padding: 2rem;
+  font-weight: 500;
 }
 
 .title-line {
   width: 100%;
-  height: 1rem;
+  height: 0.5rem;
   background-color: #1b1b1b;
   margin-top: 0.1rem;
 }
