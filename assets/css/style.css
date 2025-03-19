@@ -897,7 +897,7 @@ body.nav-active { overflow: hidden; }
   align-items: flex-start;
   border-left: 4px solid var(--border-eerie-black);
   border-right: 4px solid var(--border-eerie-black);
-  overflow-x: auto;
+  overflow: auto;
   padding: 2rem;
 }
 
