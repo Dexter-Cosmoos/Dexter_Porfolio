@@ -52,8 +52,7 @@
    */
 
   /* font family */
-  --fontfamily-roboto: 'Roboto', sans-serif;
-  --fontFamily-roboto: 'Poppins', sans-serif;
+  --font-family-Poppins: 'Poppins', sans-serif;
   --font-dancing-script: 'Dancing Script', cursive;
 
   /* font size */
@@ -156,8 +155,9 @@ html {
 body {
   background-color: var(--bg-black);
   color: var(--text-light-gray);
-  font-family: var(--fontFamily-roboto);
+  font-family: var(--font-family-Poppins);
   font-size: var(--fontSize-8);
+  letter-spacing: 1px;
   line-height: 1.75;
   overflow: hidden;
 }
@@ -656,8 +656,8 @@ body.nav-active { overflow: hidden; }
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border-left: 10px solid var(--border-eerie-black); /* Added left border */
-  border-right: 10px solid var(--border-eerie-black); /* Added right border */
+  border-left: 6px solid var(--border-eerie-black); /* Added left border */
+  border-right: 6px solid var(--border-eerie-black); /* Added right border */
 }
 
 /* Individual icon style */
@@ -704,13 +704,13 @@ body.nav-active { overflow: hidden; }
 
 /* Styles for the first icon in the series */
 .icon-start {
-  border-block-start: 5px solid var(--border-eerie-black);
+  border-block-start: 4px solid var(--border-eerie-black);
   margin-block-start: var(--section-spacing);
 }
 
 /* Styles for the last icon in the series */
 .icon-end {
-  border-block-end: 5px solid var(--border-eerie-black);
+  border-block-end: 4px solid var(--border-eerie-black);
   margin-block-end: var(--section-spacing);
 }
 
@@ -745,7 +745,7 @@ body.nav-active { overflow: hidden; }
   left: 50%;
   transform: translate(-50%, -100%);
   color: var(--text-white);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: var(--weight-medium);
   line-height: 1.3;
   opacity: 0;
