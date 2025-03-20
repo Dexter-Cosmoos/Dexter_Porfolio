@@ -1285,6 +1285,12 @@ body.nav-active { overflow: hidden; }
     grid-template-columns: 1fr 1fr;
   }
 
+  .about-banner {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
   .Certificates-card {
     max-width: max-content;
     margin-inline: auto;
