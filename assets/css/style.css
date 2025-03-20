@@ -911,10 +911,10 @@ body.nav-active { overflow: hidden; }
 
 .company-section {
   width: 100%;
-  margin-top: 2rem;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+  margin-block: 1.25rem;
 }
 
 .company-details {
