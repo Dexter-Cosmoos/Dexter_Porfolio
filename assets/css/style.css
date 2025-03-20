@@ -932,7 +932,7 @@ body.nav-active { overflow: hidden; }
   border-radius: 30px;
   background-color: #000000;
   margin-left: 0;
-  color: white;
+  color: var(--text-light-gray);
 }
 
 .company-name-1 {
@@ -978,11 +978,14 @@ body.nav-active { overflow: hidden; }
 
 .company-info p {
   margin: 0.5rem 0;
+  font-weight: 500;
 }
 
 .company-info ul {
   margin: 0.5rem 0;
-  padding-left: 1.5rem;
+  padding-left: 0.5rem;
+  font-weight: 400;
+  line-height: 2;
 }
 
 @media (min-width: 768px) {
