@@ -781,8 +781,10 @@ body.nav-active { overflow: hidden; }
 
 .tab-content {
   display: none;
-  padding: 30px;
-  overflow: hidden;
+  padding: 15px; /* Adjust padding as per your need */
+  margin: 0 auto; /* Centers the content horizontally */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  overflow-x: hidden;
 }
 
 .tab-content.active {
