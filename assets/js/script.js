@@ -161,3 +161,28 @@ addEventOnElements(hoveredElements, "mouseout", function () {
 });
 
 
+/**
+ * Contact form
+ */
+
+// JavaScript to handle form submission and display success message
+document.getElementById("contact-form").addEventListener("submit", function (event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  // Example validation (can be extended as needed)
+  if (!name || !email || !message) {
+    alert("Please fill out all fields.");
+    return;
+  }
+
+  // Hide the form
+  document.querySelector(".contact-card").style.display = "none";
+
+  // Show the success message
+  document.getElementById("success-message").classList.remove("contact-hidden");
+});
+
