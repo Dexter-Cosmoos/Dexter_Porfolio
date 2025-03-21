@@ -829,7 +829,7 @@ body.nav-active { overflow: hidden; }
   display: list-item;
   align-items: center;
   gap: 20px;
-  margin-block: 80px;
+  margin-block: 100px;
 }
 
 .skill-wrapper .span {
