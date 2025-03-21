@@ -826,10 +826,18 @@ body.nav-active { overflow: hidden; }
 }
 
 .banners {
-  display: list-item;
-  align-items: center;
-  gap: 20px;
-  margin-block: 100px;
+  display: flex; /* Ensures flexible layout */
+  flex-wrap: wrap; /* Allows items to wrap if necessary */
+  align-items: center; /* Vertically aligns items */
+  justify-content: center; /* Centers items horizontally */
+  gap: 10px; /* Space between items */
+}
+
+.banner-line {
+  width: 100%; /* Occupies full width of the container */
+  height: 5px;
+  background: linear-gradient(to right, #1b1b1b);
+  margin: 0 5rem; /* Adjusts spacing above and below the line */
 }
 
 .skill-wrapper .span {
@@ -840,6 +848,7 @@ body.nav-active { overflow: hidden; }
 .progress-bar {
   background-color: var(--bg-black);
   height: 4px;
+  margin-top: 0.5rem;
 }
 
 .progress-fill {
