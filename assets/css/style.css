@@ -831,6 +831,7 @@ body.nav-active { overflow: hidden; }
   align-items: center; /* Vertically aligns items */
   justify-content: center; /* Centers items horizontally */
   gap: 1px; /* Space between items */
+  margin-block: 20px;
 }
 
 .banner-line {
