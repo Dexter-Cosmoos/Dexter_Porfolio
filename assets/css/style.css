@@ -833,6 +833,14 @@ body.nav-active { overflow: hidden; }
   gap: 10px; /* Space between items */
 }
 
+.banners-img-holder {
+  flex: 1; /* Allows items to grow and shrink */
+  overflow: hidden;
+  background-color: var(--bg-jet);
+  aspect-ratio: var(--width) / var(--height);
+  max-width: auto; /* Adjust based on your layout */
+}
+
 .banner-line {
   width: 100%; /* Occupies full width of the container */
   height: 5px;
