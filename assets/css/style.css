@@ -830,22 +830,13 @@ body.nav-active { overflow: hidden; }
   flex-wrap: wrap; /* Allows items to wrap if necessary */
   align-items: center; /* Vertically aligns items */
   justify-content: center; /* Centers items horizontally */
-  gap: 10px; /* Space between items */
-}
-
-.banners-img-holder {
-  flex: 1; /* Allows items to grow and shrink */
-  overflow: hidden;
-  background-color: var(--bg-jet);
-  aspect-ratio: var(--width) / var(--height);
-  max-width: auto; /* Adjust based on your layout */
+  gap: 1px; /* Space between items */
 }
 
 .banner-line {
   width: 100%; /* Occupies full width of the container */
   height: 5px;
   background: linear-gradient(to right, #1b1b1b);
-  margin: 5rem; /* Adjusts spacing above and below the line */
 }
 
 .skill-wrapper .span {
