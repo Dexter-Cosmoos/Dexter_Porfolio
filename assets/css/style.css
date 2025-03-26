@@ -247,14 +247,74 @@ body.nav-active { overflow: hidden; }
 
 .title {
   color: var(--text-white);
-  font-family: var(--fontFamily-recoleta);
+  font-family: var(--font-family-Poppins);
   font-weight: var(--weight-regular);
 }
 
+/*-----------------------------------*\
+  #HEAD TITLE
+\*-----------------------------------*/
+
+.head-title {
+  /* Base styles */
+  color: var(--text-white);
+  font-family: var(--font-family-Poppins);
+  font-weight: var(--weight-regular);
+
+  /* Gradient effect */
+  background: linear-gradient(90deg, #ffffff, #343a40, #ffffff);
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  /* Combined animations */
+  animation: shine 6s linear infinite, floatUp 3s ease-in-out infinite;
+
+  /* Responsive base */
+  display: inline-block;
+  max-width: 100%;
+  word-break: break-word;
+  transform: translateZ(0); /* Hardware acceleration */
+}
+
+/* Reduced motion alternative */
+@media (prefers-reduced-motion: reduce) {
+  .head-title {
+    animation: none;
+    color: var(--text-white);
+  }
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes floatUp {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .h1 {
+  /* Fluid typography for better responsiveness */
   font-size: var(--fontSize-2);
   line-height: 1.2;
   letter-spacing: 1px;
+  backface-visibility: hidden;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .h1 {
+    letter-spacing: 0.5px;
+    animation-duration: 5s, 4s; /* Adjusted for both animations */
+  }
 }
 
 .h2,
@@ -271,6 +331,11 @@ body.nav-active { overflow: hidden; }
 .h5 { font-size: var(--fontSize-7); }
 
 .h6 { font-size: var(--fontSize-6); }
+
+
+/*-----------------------------------*\
+  #Button
+\*-----------------------------------*/
 
 .btn {
   color: var(--text-white);
@@ -386,8 +451,26 @@ body.nav-active { overflow: hidden; }
 }
 
 .hero-text {
- font-size: 20px;
-} 
+  font-size: 20px;
+  animation: moveUp 1.5s ease-in-out;
+  /* Optional: Add these for better animation control */
+  opacity: 0;
+  /* Start invisible */
+  animation-fill-mode: forwards;
+  /* Keep final state after animation */
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 
 /*-----------------------------------*\
