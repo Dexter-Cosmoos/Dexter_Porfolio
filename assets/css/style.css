@@ -269,7 +269,7 @@ body.nav-active { overflow: hidden; }
   -webkit-background-clip: text;
 
   /* Combined animations */
-  animation: shine 6s linear infinite, floatUp 3s ease-in-out infinite;
+  animation: moveUp 3s ease-in-out forwards, shine 6s linear infinite, floatUp 3s ease-in-out infinite;
 
   /* Responsive base */
   display: inline-block;
@@ -428,6 +428,7 @@ body.nav-active { overflow: hidden; }
   border-radius: 5px;
   transition: background-color 0.3s;
   letter-spacing: 2px;
+  animation: moveUp 1.5s ease-in-out forwards;
 }
 
 .btn .span, .btn ion-icon, .btn i {
@@ -452,7 +453,7 @@ body.nav-active { overflow: hidden; }
 
 .hero-text {
   font-size: 20px;
-  animation: moveUp 1.5s ease-in-out;
+  animation: moveUp 3s ease-in-out;
   /* Optional: Add these for better animation control */
   opacity: 0;
   /* Start invisible */
@@ -667,7 +668,6 @@ body.nav-active { overflow: hidden; }
   position: relative;
   border-radius: var(--radius-pill);
   margin-top: 12px;
-
 }
 
 .hero-banner::after {
