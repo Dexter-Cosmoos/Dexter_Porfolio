@@ -825,6 +825,10 @@ body.nav-active { overflow: hidden; }
   margin-block: 30px 12px;
 }
 
+/*-----------------------------------*\
+  #BANNERS
+\*-----------------------------------*/
+
 .banners {
   display: flex; /* Ensures flexible layout */
   flex-wrap: wrap; /* Allows items to wrap if necessary */
@@ -834,10 +838,42 @@ body.nav-active { overflow: hidden; }
   margin-block: 20px;
 }
 
+.banners-img-holder {
+  flex: 1; /* Both images take equal space */
+  min-width: 0; /* Allows images to shrink properly */
+}
+
 .banner-line {
   width: 100%; /* Occupies full width of the container */
   height: 5px;
   background: linear-gradient(to right, #1b1b1b);
+}
+
+@media (max-width: 768px) {
+
+  /* Adjust breakpoint as needed */
+  .banners-img-holder:last-child {
+    display: none;
+    /* Hide the second banner */
+  }
+
+  .banner-line {
+    display: none;
+    /* Hide the divider line */
+  }
+
+  .banners-img-holder:first-child {
+    flex: 0 0 100%;
+    /* First banner takes full width */
+  }
+
+  .banners-img-holder:first-child {
+    display: none;
+  }
+
+  .banners-img-holder:last-child {
+    flex: 0 0 100%;
+  }
 }
 
 .skill-wrapper .span {
