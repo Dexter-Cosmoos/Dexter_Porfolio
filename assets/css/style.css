@@ -56,16 +56,17 @@
   --font-dancing-script: 'Dancing Script', cursive;
 
   /* font size */
-  --fontSize-1: 4.6rem;
-  --fontSize-2: 4.5rem;
-  --fontSize-3: 4rem;
-  --fontSize-4: 3rem;
-  --fontSize-5: 2.4rem;
-  --fontSize-6: 1.8rem;
-  --fontSize-7: 2rem;
-  --fontSize-8: 1.6rem;
-  --fontSize-9: 1.5rem;
-  --fontSize-10: 1.4rem;
+  --fontSize-1: clamp(4.6rem, 8vw, 9rem);
+  --fontSize-2: clamp(4.5rem, 7.5vw, 7rem);
+  --fontSize-3: clamp(3rem, 5vw, 4rem);
+  --fontSize-4: clamp(2.4rem, 4vw, 3rem);
+  --fontSize-5: clamp(1.8rem, 3vw, 2.4rem);
+  --fontSize-6: clamp(1.6rem, 2.5vw, 1.8rem);
+  --fontSize-7: clamp(1.5rem, 2.2vw, 2rem);
+  --fontSize-8: clamp(1.4rem, 2vw, 1.6rem);
+  --fontSize-9: clamp(1.3rem, 1.8vw, 1.5rem);
+  --fontSize-10: clamp(1.2rem, 1.5vw, 1.4rem);
+
 
   /* font weight */
   --weight-regular: 400;
@@ -97,8 +98,57 @@
   
 }
 
+/*-----------------------------------*\
+  #ANIMATION
+\*-----------------------------------*/
+
+.moveUp-animation {
+  animation: moveUp 1.5s ease-in-out forwards;
+}
+@keyframes moveUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.float-animation {
+  animation: floatUp 1.5s ease-in-out infinite;
+  /* or 'forwards' if you want it to stay up */
+}
+
+@keyframes floatUp {
+
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
 
 
+.zoomIn-animation {
+  animation: zoomIn 1.5s ease-out forwards;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 
 
 /*-----------------------------------*\
@@ -269,7 +319,7 @@ body.nav-active { overflow: hidden; }
   -webkit-background-clip: text;
 
   /* Combined animations */
-  animation: moveUp 3s ease-in-out forwards, shine 6s linear infinite, floatUp 3s ease-in-out infinite;
+  animation: shine 6s linear infinite, floatUp 3s ease-in-out infinite;
 
   /* Responsive base */
   display: inline-block;
@@ -289,15 +339,6 @@ body.nav-active { overflow: hidden; }
 @keyframes shine {
   to {
     background-position: 200% center;
-  }
-}
-
-@keyframes floatUp {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
   }
 }
 
@@ -424,21 +465,17 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   text-decoration: none;
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 15px 15px;
   border-radius: 5px;
   transition: background-color 0.3s;
   letter-spacing: 2px;
-  animation: moveUp 1.5s ease-in-out forwards;
 }
 
 .btn .span, .btn ion-icon, .btn i {
  background: linear-gradient(45deg, #6c757d, #adb5bd, #ced4da, #dee2e6);
  background-clip: text;
  -webkit-background-clip: text;
- background-clip: text;
- background-clip: text;
  -webkit-text-fill-color: transparent;
- background-clip: text;
 }
 
 .btn ion-icon, .btn i {
@@ -453,24 +490,6 @@ body.nav-active { overflow: hidden; }
 
 .hero-text {
   font-size: 20px;
-  animation: moveUp 3s ease-in-out;
-  /* Optional: Add these for better animation control */
-  opacity: 0;
-  /* Start invisible */
-  animation-fill-mode: forwards;
-  /* Keep final state after animation */
-}
-
-@keyframes moveUp {
-  from {
-    transform: translateY(30px);
-    opacity: 0;
-  }
-
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
 }
 
 
@@ -634,12 +653,12 @@ body.nav-active { overflow: hidden; }
 
 .hero {
   position: relative;
-  padding-block-start: 10vh; /* Use relative units for padding */
+  padding-block-start: clamp(80px, 8vh, 168px);
 }
 
 .hero .container {
   display: grid;
-  gap: 2rem; /* Use relative units for gap */
+  gap: 2rem;
   overflow: hidden;
 }
 
@@ -781,7 +800,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .ico-text {
-  color: #eaeaea;
+  color: var(--bg-white);
   text-align: left;
   font-size: 20px;
   margin-top: 1rem;
