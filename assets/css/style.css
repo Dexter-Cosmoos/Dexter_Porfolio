@@ -1279,22 +1279,6 @@ body.nav-active {
   color: var(--text-white);
 }
 
-.Badges-card {
-  position: relative;
-}
-
-.Badges-card .card-icon {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  background-color: var(--bg-white);
-  width: 40px;
-  height: 40px;
-  border-radius: var(--radius-circle);
-  color: var(--bg-smoky-black);
-  display: grid;
-  place-items: center;
-}
 
 
 
