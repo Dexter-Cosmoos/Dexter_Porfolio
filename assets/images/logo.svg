@@ -2,8 +2,8 @@
     <!-- Gradient for "folio." -->
     <defs>
         <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#0066FF" />  <!-- Start blue -->
-            <stop offset="100%" stop-color="#4CC9F0" /> <!-- Lighter blue -->
+            <stop offset="0%" stop-color="#3A86FF" />  <!-- Start blue -->
+            <stop offset="100%" stop-color="#8338EC" /> <!-- Lighter blue -->
         </linearGradient>
     </defs>
 
