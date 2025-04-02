@@ -709,7 +709,7 @@ body.nav-active {
   height: 30px;
   background-color: var(--bg-smoky-black);
   color: var(--text-white);
-  font-size: 2rem;
+  font-size: 20px;
   display: grid;
   place-items: center;
 }
