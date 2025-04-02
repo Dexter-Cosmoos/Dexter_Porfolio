@@ -699,8 +699,8 @@ body.nav-active {
   justify-content: space-between;
   align-items: center;
   padding-block-end: 10px;
-  padding-block-start: 20px;
-  border-block-end: 4px solid var(--border-smoky-black);
+  padding-block-start: 10px;
+  border-block-end: 5px solid var(--border-smoky-black);
   margin-block-end: 10px;
 }
 
@@ -715,7 +715,7 @@ body.nav-active {
 }
 
 .nav-close-btn ion-icon {
-  --ionicon-stroke-width: 50px;
+  --ionicon-stroke-width: 60px;
 }
 
 .navbar-link {
