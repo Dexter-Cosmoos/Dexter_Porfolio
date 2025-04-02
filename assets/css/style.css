@@ -56,16 +56,16 @@
   --font-dancing-script: 'Dancing Script', cursive;
 
   /* font size */
-  --fontSize-1: clamp(4.6rem, 8vw, 9rem);
-  --fontSize-2: clamp(4.5rem, 7.5vw, 7rem);
-  --fontSize-3: clamp(3rem, 5vw, 4rem);
-  --fontSize-4: clamp(2.4rem, 4vw, 3rem);
-  --fontSize-5: clamp(1.8rem, 3vw, 2.4rem);
-  --fontSize-6: clamp(1.6rem, 2.5vw, 1.8rem);
-  --fontSize-7: clamp(1.5rem, 2.2vw, 2rem);
-  --fontSize-8: clamp(1.4rem, 2vw, 1.6rem);
-  --fontSize-9: clamp(1.3rem, 1.8vw, 1.5rem);
-  --fontSize-10: clamp(1.2rem, 1.5vw, 1.4rem);
+  --fontSize-1: 4.6rem;
+  --fontSize-2: 4.5rem;
+  --fontSize-3: 4rem;
+  --fontSize-4: 3rem;
+  --fontSize-5: 2.4rem;
+  --fontSize-6: 1.8rem;
+  --fontSize-7: 2rem;
+  --fontSize-8: 1.6rem;
+  --fontSize-9: 1.5rem;
+  --fontSize-10: 1.4rem;
 
 
   /* font weight */
@@ -707,6 +707,7 @@ body.nav-active {
 .nav-close-btn {
   width: 20px;
   height: 20px;
+  border-radius: 50px;
   background-color: var(--bg-white);
   color: var(--bg-black);
   font-size: 20px;
@@ -758,7 +759,7 @@ body.nav-active {
 
 .hero {
   position: relative;
-  padding-block-start: clamp(80px, 8vh, 168px);
+  padding-block-start: 120px;
 }
 
 .hero .container {
