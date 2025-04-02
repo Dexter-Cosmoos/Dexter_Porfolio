@@ -708,7 +708,7 @@ body.nav-active {
   width: 20px;
   height: 20px;
   background-color: var(--bg-smoky-black);
-  color: var(--text-white);
+  color: #ffffff;
   font-size: 20px;
   display: grid;
   place-items: center;
