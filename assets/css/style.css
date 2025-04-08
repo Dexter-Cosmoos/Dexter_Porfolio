@@ -1282,6 +1282,30 @@ body.nav-active {
 
 
 
+/*-----------------------------------*\
+  #Marquee
+\*-----------------------------------*/
+
+.marquee {
+  color: #6c757d;
+  background-color: #000000;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Luckiest Guy', cursive, sans-serif;
+  margin: 10px 10px;
+  padding: 10px;
+  border-left: 15px solid var(--border-eerie-black);
+  border-right: 15px solid var(--border-eerie-black);
+}
+
+@media (max-width: 768px) {
+  .marquee {
+  display: none;
+  }
+}
+        
+
 
 /*-----------------------------------*\
   #EXPERIENCE
