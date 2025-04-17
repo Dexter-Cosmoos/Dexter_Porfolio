@@ -1286,26 +1286,97 @@ body.nav-active {
   #Marquee
 \*-----------------------------------*/
 
-.marquee {
-  color: #6c757d;
+.marquee-container {
   background-color: #000000;
-  font-style: italic;
-  font-size: 50px;
-  font-weight: 800;
-  font-family: 'Luckiest Guy', cursive, sans-serif;
   margin: 10px 10px;
-  padding: 10px;
-  border-left: 15px solid var(--border-eerie-black);
-  border-right: 15px solid var(--border-eerie-black);
+  padding: 4px;
+  border-left: 15px solid var(--border-eerie-black, #1c1c1c);
+  border-right: 15px solid var(--border-eerie-black, #1c1c1c);
+  overflow: hidden;
 }
 
+.marquee {
+  color: #6C757D;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Akaya Kanadaka', sans-serif;
+}
+
+.scroll-text-container {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.scroll-text-container:last-child {
+  margin-bottom: 0;
+}
+
+
+.scroll-text-content {
+  display: inline-block;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* --- Animation Definitions --- */
+
+/* Left Scrolling */
+@keyframes scroll-left-anim {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Right Scrolling */
+@keyframes scroll-right-anim {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+/* --- Apply Animations based on class --- */
+
+.scroll-left .scroll-text-content {
+  padding-left: 100%;
+  animation-name: scroll-left-anim;
+}
+
+.scroll-right .scroll-text-content {
+  animation-name: scroll-right-anim;
+}
+
+
+/* === Your Existing Media Query (Modified) === */
 @media (max-width: 768px) {
+  .marquee-container {
+    border-left: 10px solid var(--border-eerie-black, #1c1c1c);
+    /* Added fallback */
+    border-right: 10px solid var(--border-eerie-black, #1c1c1c);
+    /* Added fallback */
+  }
+
   .marquee {
-  display: none;
+    font-size: 30px;
+  }
+
+
+  .scroll-text-content {
+    animation-duration: 50s;
   }
 }
         
-
 
 /*-----------------------------------*\
   #EXPERIENCE

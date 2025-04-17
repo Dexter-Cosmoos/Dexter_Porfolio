@@ -27,9 +27,9 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+  <link 
+   href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap&family=Akaya+Kanadaka&display=swap" 
+   rel="stylesheet">
   <link rel="stylesheet" href="./assets/font/font.css">
 
   <!-- 
@@ -728,24 +728,33 @@
      #Marquee
     -->
 
-    <section>
-
+    <section class="marquee-container">
       <div class="marquee">
 
-        <marquee width="100%" direction="left" behavior="scroll" scrollamount="12">
-          Nomaan Ansari     Nomaan Ansari     Nomaan Ansari     Nomaan Ansari     Nomaan Ansari
-        </marquee>
+        <!-- Replaced marquee 1 (Scroll Left) -->
+        <div class="scroll-text-container scroll-left">
+          <span class="scroll-text-content">
+            Nomaan Ansari    Nomaan Ansari    Nomaan Ansari    Nomaan Ansari    Nomaan
+            Ansari     <!-- Repeat for smooth loop -->Nomaan Ansari    Nomaan Ansari    Nomaan Ansari    Nomaan
+            Ansari    Nomaan Ansari    
+          </span>
+        </div>
 
-        <marquee width="100%" direction="right" behavior="scroll" scrollamount="10">
-          Data-Analyst   Data-Analyst   Data-Analyst   Data-Analyst   Data-Analyst
-        </marquee>
+        <div class="scroll-text-container scroll-right">
+          <span class="scroll-text-content">
+            Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos     <!-- Repeat for smooth loop -->Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos    Dexter-Cosmoos    
+          </span>
+        </div>
 
-        <marquee width="100%" direction="left" behavior="scroll" scrollamount="15">
-          Dexter-Cosmoos   Dexter-Cosmoos   Dexter-Cosmoos   Dexter-Cosmoos   Dexter-Cosmoos
-        </marquee>
+        <div class="scroll-text-container scroll-left">
+          <span class="scroll-text-content">
+            The Passionate and Professional Analyst    The Passionate and Professional Analyst    The Passionate and
+            Professional Analyst     <!-- Repeat for smooth loop -->The Passionate and Professional Analyst    The
+            Passionate and Professional Analyst    The Passionate and Professional Analyst    
+          </span>
+        </div>
 
       </div>
-
     </section>
 
 
